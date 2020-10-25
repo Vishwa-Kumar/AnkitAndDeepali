@@ -29,4 +29,4 @@ jobs:
         app-name: 'ankitanddeepali'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_2148d04d92f54e869a8b8ac46185565e }}
-        package: '${{ github.workspace }}/target/*.war'
+        package: 'demo/target/*.war'
