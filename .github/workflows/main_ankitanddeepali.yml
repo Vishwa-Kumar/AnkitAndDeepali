@@ -21,7 +21,7 @@ jobs:
         java-version: '8'
 
     - name: Build with Maven
-      run: mvn clean install
+      run: mvn clean install -Dmaven.test.skip=true
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
@@ -29,4 +29,4 @@ jobs:
         app-name: 'ankitanddeepali'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_83d19f9d576d4dc089eaa836b475974c }}
-        package: '${{ github.workspace }}/target/*.jar'
+        package: target/ROOT.war
