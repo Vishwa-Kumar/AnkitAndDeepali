@@ -10,7 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Page Title -->
-    <title> Ankit & Deepali Wedding </title>
+    <title> Ankit Agarwal & Deepali Das Wedding </title>
+    <meta name="keywords" content="Ankit,Deepali,Madu ki shaadi,madu ki weeding,Deepali ki shaadi">
+    <meta name="description" content="Finally two love birds are getting married">
 
     <!-- Favicon and Touch Icons -->
     <link href="images/favicon/favicon.png" rel="shortcut icon" type="image/png">
