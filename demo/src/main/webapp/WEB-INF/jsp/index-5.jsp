@@ -93,7 +93,8 @@
             </button>
 
             <div class="music-holder">
-               <audio controls loop autoplay>
+            <iframe src="https://olafwempe.com/mp3/silence/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+               <audio controls loop autoplay >
 					<source src="music/Never_Stop_Wedding_Version.mp3" type="audio/mpeg">
 					Your browser does not support the audio element.
 				</audio>
