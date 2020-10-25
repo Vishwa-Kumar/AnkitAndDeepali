@@ -11,7 +11,7 @@
 
     <!-- Page Title -->
     <title> Ankit Agarwal & Deepali Das Wedding </title>
-    <meta name="keywords" content="Ankit,Deepali,Madu ki shaadi,madu ki weeding,Deepali ki shaadi">
+    <meta name="keywords" content="Ankit,Deepali,Madu ki shaadi,madu ki hui deepali">
     <meta name="description" content="Finally two love birds are getting married">
 
     <!-- Favicon and Touch Icons -->
