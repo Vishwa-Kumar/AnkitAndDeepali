@@ -1,631 +1,918 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+	
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ankit & Deepali &mdash;</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page Title -->
+    <title> Ankit Agarwal & Deepali Das Wedding </title>
+    <meta name="keywords" content="Ankit,Deepali,Madu ki shaadi,madu ki hui deepali">
+    <meta name="description" content="Finally two love birds are getting married">
+
+    <!-- Favicon and Touch Icons -->
+    <link href="images/favicon/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="images/favicon/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="images/favicon/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+    <link href="images/favicon/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+    <link href="images/favicon/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+
+    <!-- Icon fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Plugins for this template -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    .hero .wedding-announcement .couple-name-merried-text h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 90px;
+    font-size: 5rem;
+    color: #fff;
+    margin: 0 0 0.4em;
+    position: relative;
+    z-index: 10;
+    padding: 0.6em 0.6em 0.8em 0.6em;
+    border-radius: 70px;
+    background-color: #ea003063;
+    display: initial;
+}
+.hero .wedding-announcement .save-the-date:after {
+    background-color: #ea003063;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.getting-there-section !important{
+    background-color: #ea003063;
+}
+    </style>
+
+</head>
+
+<body id="home">
+
+    <!-- start page-wrapper -->
+    <div class="page-wrapper">
+
+        <!-- start preloader -->
+        <div class="preloader">
+            <div class="inner">
+                <span class="icon"><i class="fi flaticon-two"></i></span>
+            </div>
+        </div>
+        <!-- end preloader -->
 
 
+        <!-- strat music-box -->
+        <div class="music-box">
+            <button class="music-box-toggle-btn">
+                <i class="fa fa-music"></i>
+            </button>
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
-		
-	<div class="fh5co-loader"></div>
-	
-	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="#">Wedding<strong>.</strong></a></div>
-				</div>
-			<!-- 	<div class="col-xs-10 text-right menu-1">
-					<ul>
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="about">Story</a></li>
-						<li class="has-dropdown">
-							<a href="services">Services</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="gallery">Gallery</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
-						</li>
-						<li><a href="contact">Contact</a></li>
-					</ul>
-				</div> -->
-			</div>
-			
-		</div>
-	</nav>
-
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Ankit &amp; Deepali</h1>
-							<h2>We Are Getting Married</h2>
-							<h2>30th November, 2020</h2>
-							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
-								<h5>website under construction</h5>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<!-- <div id="fh5co-couple">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<h2>Hello!</h2>
-					<h3>November 30th, 2020 Hyderabad, India</h3>
-					<p>We invited you to celebrate our wedding</p>
-				</div>
-			</div>
-			<div class="couple-wrap animate-box">
-				<div class="couple-half">
-					<div class="groom">
-						<img src="images/groom.jpg" alt="groom" class="img-responsive">
-					</div>
-					<div class="desc-groom">
-						<h3>Joefrey Mahusay</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-					</div>
-				</div>
-				<p class="heart text-center"><i class="icon-heart2"></i></p>
-				<div class="couple-half">
-					<div class="bride">
-						<img src="images/bride.jpg" alt="groom" class="img-responsive">
-					</div>
-					<div class="desc-bride">
-						<h3>Sheila Mahusay</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- <div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Special Events</span>
-					<h2>Wedding Events</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-10 col-md-offset-1">
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Main Ceremony</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>4:00 PM</span>
-										<span>6:00 PM</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
-									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Wedding Party</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>7:00 PM</span>
-										<span>12:00 AM</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Monday 28</span>
-										<span>November, 2016</span>
-									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- <div id="fh5co-couple-story">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline animate-box">
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div>
- -->
-	<!-- <div id="fh5co-gallery" class="fh5co-section-gray">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>Our Memories</span>
-					<h2>Wedding Gallery</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-				</div>
-			</div>
-			<div class="row row-bottom-padded-md">
-				<div class="col-md-12">
-					<ul id="fh5co-gallery-list">
-						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); "> 
-						<a href="images/gallery-1.jpg">
-							<div class="case-studies-summary">
-								<span>14 Photos</span>
-								<h2>Two Glas of Juice</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
-						<a href="#" class="color-2">
-							<div class="case-studies-summary">
-								<span>30 Photos</span>
-								<h2>Timer starts now!</h2>
-							</div>
-						</a>
-					</li>
-
-
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
-						<a href="#" class="color-3">
-							<div class="case-studies-summary">
-								<span>90 Photos</span>
-								<h2>Beautiful sunset</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
-						<a href="#" class="color-4">
-							<div class="case-studies-summary">
-								<span>12 Photos</span>
-								<h2>Company's Conference Room</h2>
-							</div>
-						</a>
-					</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
-							<a href="#" class="color-3">
-								<div class="case-studies-summary">
-									<span>50 Photos</span>
-									<h2>Useful baskets</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>45 Photos</span>
-									<h2>Skater man in the road</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg); ">
-							<a href="#" class="color-4">
-								<div class="case-studies-summary">
-									<span>35 Photos</span>
-									<h2>Two Glas of Juice</h2>
-								</div>
-							</a>
-						</li>
-
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg); "> 
-							<a href="#" class="color-5">
-								<div class="case-studies-summary">
-									<span>90 Photos</span>
-									<h2>Timer starts now!</h2>
-								</div>
-							</a>
-						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
-							<a href="#" class="color-6">
-								<div class="case-studies-summary">
-									<span>56 Photos</span>
-									<h2>Beautiful sunset</h2>
-								</div>
-							</a>
-						</li>
-					</ul>		
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<!-- <div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(images/img_bg_5.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="display-t">
-					<div class="display-tc">
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-users"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="500" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Estimated Guest</span>
-
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-user"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="1000" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">We Catter</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-calendar"></i>
-								</span>
-								<span class="counter js-counter" data-from="0" data-to="402" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Events Done</span>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6 animate-box">
-							<div class="feature-center">
-								<span class="icon">
-									<i class="icon-clock"></i>
-								</span>
-
-								<span class="counter js-counter" data-from="0" data-to="2345" data-speed="5000" data-refresh-interval="50">1</span>
-								<span class="counter-label">Hours Spent</span>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
- -->
-	<!-- <div id="fh5co-testimonial">
-		<div class="container">
-			<div class="row">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<span>Best Wishes</span>
-						<h2>Friends Wishes</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 animate-box">
-						<div class="wrap-testimony">
-							<div class="owl-carousel-fullwidth">
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-1.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-2.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="testimony-slide active text-center">
-										<figure>
-											<img src="images/couple-3.jpg" alt="user">
-										</figure>
-										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
-										<blockquote>
-											<p>"Far far away, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean."</p>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
- -->
-	<!-- <div id="fh5co-services" class="fh5co-section-gray">
-		<div class="container">
-			
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>We Offer Services</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-6">
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-calendar"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>We Organized Events</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-image"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Photoshoot</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
-						<span class="icon">
-							<i class="icon-video"></i>
-						</span>
-						<div class="feature-copy">
-							<h3>Video Editing</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-md-6 animate-box">
-					<div class="fh5co-video fh5co-bg" style="background-image: url(images/img_bg_3.jpg); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video2"></i></a>
-						<div class="overlay"></div>
-					</div>
-				</div>
-			</div>
-
-			
-		</div>
-	</div> -->
-
-
-<!-- 	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Are You Attending?</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-10 col-md-offset-1">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="name" class="form-control" id="name" placeholder="Name">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">I am Attending</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div> -->
-
-	<footer id="fh5co-footer" role="contentinfo">
-		<div class="container">
-
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2020 </small> 
-						<small class="block">Vishwa Kr Deepak</small>
-							<span class="music-holder">
-				<audio controls loop autoplay>
+            <div class="music-holder">
+            <iframe src="https://olafwempe.com/mp3/silence/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+               <audio controls loop autoplay >
 					<source src="music/Never_Stop_Wedding_Version.mp3" type="audio/mpeg">
 					Your browser does not support the audio element.
 				</audio>
+            </div>
+        </div>
+        <!-- end music box -->
 
-			</span>
-					</p>
-					<p>
-						<!-- <ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-						</ul> -->
-					</p>
-				</div>
-			</div>
 
-		</div>
-	</footer>
-	</div>
+        <!-- start of hero -->
+        <section class="hero">
+            <div class="static-hero"></div>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
+            <div id="spirit-header" class="spirit-header">
+                <canvas id="spirit-canvas"></canvas>
+            </div>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
+            <div class="wedding-announcement">
+                <div class="couple-name-merried-text">
+                    <h2 class="wow slideInUp" data-wow-duration="1s">Ankit &amp; Deepali</h2>
+                    <div class="married-text wow fadeIn" data-wow-delay="1s">
+                        <h4 class="">
+                        <span class=" wow fadeInUp" data-wow-delay="1.05s">W</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.10s">e</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.15s">'</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.20s">r</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.25s">e</span>
+                        <span>&nbsp;</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.30s">g</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.35s">e</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.40s">t</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.45s">t</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.50s">i</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.55s">n</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.60s">g</span>
+                        <span>&nbsp;</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.65s">m</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.70s">a</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.75s">r</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.80s">r</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.85s">i</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.90s">e</span>
+                        <span class=" wow fadeInUp" data-wow-delay="1.95s">d</span>
 
-	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+                        </h4>
+                    </div>
+                    <!-- <i class="fa fa-heart"></i> -->
+                </div>
 
-	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+                <div class="save-the-date">
+                    <h4>Save the date</h4>
+                    <span class="date">30 NOV 2020</span>
+                </div>
+            </div>
+        </section>
+        <!-- end of hero slider -->
 
-	<script>
-    var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
 
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
-    });
+        <!-- Start header -->
+        <header id="header" class="site-header header-style-1">
+            <nav class="navigation navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="open-btn">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="couple-logo">
+                            <h1><a href="#home">A <i class="fi flaticon-shape-1"></i> D</a></h1>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
+                        <button class="close-navbar"><i class="fa fa-close"></i></button>
+                        <ul class="nav navbar-nav">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#couple">Couple</a></li>
+                            <!-- <li><a href="#story">Story</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#people">People</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#rsvp">RSVP</a></li> -->
+                            <!-- <li class="menu-item-has-children">
+                                <a href="javascript:void(0);">Blog</a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#Level3">Thidr level</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Level3</a></li>
+                                            <li><a href="#">Level3</a></li>
+                                            <li><a href="#">Level3</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </div><!-- end of nav-collapse -->
+                </div><!-- end of container -->
+            </nav>
+        </header>
+        <!-- end of header -->
 
-    //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-        enableUtc: false
-    });
-</script>
 
-	</body>
+        <!-- start wedding-couple-section -->
+        <section class="wedding-couple-section section-padding" id="couple">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="gb groom">
+                            <div class="img-holder wow fadeInLeftSlow">
+                                <img src="images/couple/img-1.jpg" alt>
+                            </div>
+                            <div class="details">
+                                <div class="details-inner">
+                                    <h3>The groom</h3>
+                                    <p>Hi I am Ankit Agrawal , </p>
+                                    <span class="signature">Ankit</span>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gb bride">
+                            <div class="details">
+                                <div class="details-inner">
+                                    <h3>The Bride</h3>
+                                    <p>Hi I am Deepali Das</p>
+                                    <span class="signature">Deepali</span>
+                                    <ul class="social-links">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="img-holder wow fadeInRightSlow">
+                                <img src="images/couple/img-2.jpg" alt>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>
+        <!-- end wedding-couple-section -->
+
+
+        <!-- start count-down-section -->
+        <section class="count-down-section section-padding parallax" data-bg-image="images/countdown-bg.jpg" data-speed="7">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-4">
+                        <h2><span>We are waiting for.....</span> The adventure</h2>
+                    </div>
+                    <div class="col col-md-7 col-md-offset-1">
+                        <div class="count-down-clock">
+                            <div id="clock">
+
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>
+        <!-- end count-down-section -->
+
+
+        <!-- start story-section -->
+        <!-- <section class="story-section section-padding" id="story">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="section-title">
+                            <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                            <h2>Our love story</h2>
+                        </div>
+                    </div>
+                </div> end section-title
+
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="story-timeline">
+                            <div class="row">
+                                <div class="col col-md-6">
+                                    <div class="story-text right-align-text">
+                                        <h3>First meet</h3>
+                                        <span class="date">Jan 12 2017</span>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, </p>
+                                    </div>
+                                </div>
+                                <div class="col col-md-6">
+                                    <div class="img-holder">
+                                        <img src="images/story/img-1.jpg" alt class="img img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-md-6">
+                                    <div class="img-holder right-align-text story-slider">
+                                        <img src="images/story/img-2.jpg" alt class="img img-responsive">
+                                        <img src="images/story/img-3.jpg" alt class="img img-responsive">
+                                    </div>
+                                </div>
+                                <div class="col col-md-6 text-holder">
+                                    <span class="heart">
+                                        <i class="fa fa-heart"></i>
+                                    </span>
+                                    <div class="story-text">
+                                        <h3>First date</h3>
+                                        <span class="date">Feb 14 2017</span>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-md-6 text-holder right-heart">
+                                    <span class="heart">
+                                        <i class="fa fa-heart"></i>
+                                    </span>
+                                    <div class="story-text right-align-text">
+                                        <h3>Proposal</h3>
+                                        <span class="date">Apr 14 2017</span>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, </p>
+                                    </div>
+                                </div>
+                                <div class="col col-md-6">
+                                    <div class="img-holder right-align-text story-slider">
+                                        <img src="images/story/img-7.jpg" alt class="img img-responsive">
+                                        <img src="images/story/img-5.jpg" alt class="img img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-md-6">
+                                    <div class="img-holder video-holder">
+                                        <img src="images/story/img-8.jpg" alt class="img img-responsive">
+                                        <a href="https://www.youtube.com/embed/XSGBVzeBUbk?autoplay=1" data-type="iframe" class="video-play-btn">
+                                            <i class="fa fa-play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col col-md-6 text-holder">
+                                    <span class="heart">
+                                        <i class="fa fa-heart"></i>
+                                    </span>
+                                    <div class="story-text">
+                                        <h3>Enagagement</h3>
+                                        <span class="date">Jul 14 2017</span>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> end row
+            </div> end container
+        </section> -->
+        <!-- end story-section -->
+
+
+        <!-- start cta -->
+        <section class="cta section-padding parallax" data-bg-image="images/cta-bg.jpg" data-speed="7">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <h2><span>We are going to...</span> Celebrate Our Love</h2>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>
+        <!-- end cta -->
+
+
+        <!-- start events-section -->
+        <!-- <section class="events-section section-padding" id="events">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="section-title">
+                            <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                            <h2>Wedding events</h2>
+                        </div>
+                    </div>
+                </div> end section-title
+
+                <div class="row">
+                    <div class="col col-lg-10 col-lg-offset-1">
+                        <div class="event">
+                            <div class="img-holder">
+                                <img src="images/events/img-1.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="details">
+                                <h3>The reception</h3>
+                                <ul>
+                                    <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
+                                    <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
+                                </ul>
+                                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">
+                                    See location <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="img-holder">
+                                <img src="images/events/img-2.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="details">
+                                <h3>Wedding party</h3>
+                                <ul>
+                                    <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
+                                    <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
+                                </ul>
+                                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.0160484383277!2d144.99053291585201!3d-37.81309307975254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642ef89a7e023%3A0xb1353055e38c1ab8!2sNew+York+Tomato+Cafe!5e0!3m2!1sbn!2sbd!4v1503743893919">
+                                    See location <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> end row
+            </div> end container
+        </section> -->
+        <!-- end events-section -->
+
+
+        <!-- start inportant-people-section -->
+       <!--  <section class="inportant-people-section section-padding" id="people">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="section-title">
+                            <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                            <h2>Groomsmen &amp; Bridesmaid</h2>
+                        </div>
+                    </div>
+                </div> end section-title
+
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="inportant-people-content">
+                            <div class="tablist">
+                                <ul class="nav">
+                                    <li class="active">
+                                        <a href="#groomsmen" data-toggle="tab">Groomsmen</a>
+                                    </li>
+                                    <li>
+                                        <a href="#bridesmaid" data-toggle="tab">Bridesmaid</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content">
+                                <div class="tab-pane fade in active grid-wrapper" id="groomsmen">
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/groomsmen/img-1.jpg" class="popup-image">
+                                                <img src="images/groomsmen/img-1.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Jhon Michel</h3>
+                                            <span>Best man</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/groomsmen/img-2.jpg" class="popup-image">
+                                                <img src="images/groomsmen/img-2.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Chasmoos jhon</h3>
+                                            <span>Best friden</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/groomsmen/img-3.jpg" class="popup-image">
+                                                <img src="images/groomsmen/img-3.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Kaiste pate</h3>
+                                            <span>Friend</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/groomsmen/img-4.jpg" class="popup-image">
+                                                <img src="images/groomsmen/img-4.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Hatu Michel</h3>
+                                            <span>Friend</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/groomsmen/img-5.jpg" class="popup-image">
+                                                <img src="images/groomsmen/img-5.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Michel doin</h3>
+                                            <span>Friend</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/groomsmen/img-6.jpg" class="popup-image">
+                                                <img src="images/groomsmen/img-6.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Topper jone</h3>
+                                            <span>Friend</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade grid-wrapper" id="bridesmaid">
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/bridesmaid/img-1.jpg" class="popup-image">
+                                                <img src="images/bridesmaid/img-1.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Rachel Li</h3>
+                                            <span>Made of honor</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/bridesmaid/img-2.jpg" class="popup-image">
+                                                <img src="images/bridesmaid/img-2.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Male Vign</h3>
+                                            <span>Best friend</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/bridesmaid/img-3.jpg" class="popup-image">
+                                                <img src="images/bridesmaid/img-3.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Jonny Mich</h3>
+                                            <span>Friend</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/bridesmaid/img-4.jpg" class="popup-image">
+                                                <img src="images/bridesmaid/img-4.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Brodd Wid</h3>
+                                            <span>Friend</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/bridesmaid/img-5.jpg" class="popup-image">
+                                                <img src="images/bridesmaid/img-5.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Nokshal bedi</h3>
+                                            <span>Friend</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid">
+                                        <div class="img-holder">
+                                            <a href="images/bridesmaid/img-6.jpg" class="popup-image">
+                                                <img src="images/bridesmaid/img-6.jpg" alt class="img img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <h3>Holly Fie</h3>
+                                            <span>Friend</span>
+                                            <ul class="social-links">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> end row
+            </div> end container
+        </section> -->
+        <!-- end inportant-people-section -->
+
+
+        <!-- start gallery-section -->
+       <!--  <section class="gallery-section section-padding" id="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="section-title">
+                            <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                            <h2>Our gallery</h2>
+                        </div>
+                    </div>
+                </div> end section-title
+
+                <div class="row">
+                    <div class="col col-xs-12 sortable-gallery">
+                        <div class="gallery-filters">
+                            <ul>
+                                <li><a data-filter="*" href="#" class="current">All</a></li>
+                                <li><a data-filter=".wedding" href="#">Wedding</a></li>
+                                <li><a data-filter=".ceremony" href="#">Ceremony</a></li>
+                                <li><a data-filter=".party" href="#">Party</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="gallery-container gallery-fancybox masonry-gallery">
+                            <div class="grid wedding">
+                                <a href="images/gallery/img-1.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="images/gallery/img-1.jpg" alt class="img img-responsive">
+                                </a>
+                            </div>
+                            <div class="grid wedding ceremony">
+                                <a href="images/gallery/img-2.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="images/gallery/img-2.jpg" alt class="img img-responsive">
+                                </a>
+                            </div>
+                            <div class="grid ceremony eudcation">
+                                <a href="images/gallery/img-3.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="images/gallery/img-3.jpg" alt class="img img-responsive">
+                                </a>
+                            </div>
+                            <div class="grid wedding party">
+                                <a href="images/gallery/img-4.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="images/gallery/img-4.jpg" alt class="img img-responsive">
+                                </a>
+                            </div>
+                            <div class="grid ceremony">
+                                <a href="images/gallery/img-5.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="images/gallery/img-5.jpg" alt class="img img-responsive">
+                                </a>
+                            </div>
+                            <div class="grid party">
+                                <a href="images/gallery/img-6.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="images/gallery/img-6.jpg" alt class="img img-responsive">
+                                </a>
+                            </div>
+                            <div class="grid wedding">
+                                <a href="images/gallery/img-7.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="images/gallery/img-7.jpg" alt class="img img-responsive">
+                                </a>
+                            </div>
+                            <div class="grid ceremony">
+                                <a href="images/gallery/img-8.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="images/gallery/img-8.jpg" alt class="img img-responsive">
+                                </a>
+                                <a href="https://www.youtube.com/embed/XSGBVzeBUbk?autoplay=1" data-type="iframe" class="video-play-btn">
+                                    <img src="images/gallery/img-8.jpg" alt class="img img-responsive">
+                                    <i class="fa fa-play"></i>
+                                </a>
+
+                            </div>
+                            <div class="grid ceremony">
+                                <a href="images/gallery/img-9.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="images/gallery/img-9.jpg" alt class="img img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> end row
+            </div> end container
+        </section> -->
+        <!-- end gallery-section -->
+
+
+        <!-- start rsvp-section -->
+        <!-- <section class="rsvp-section section-padding parallax" data-bg-image="images/rsvp-bg.jpg" data-speed="7" id="rsvp">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="section-title-white">
+                            <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                            <h2>Join our party</h2>
+                        </div>
+                    </div>
+                </div> end section-title
+
+                <div class="row content">
+                    <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <p>Please reserve before November 16th, 2020.</p>
+                        <form id="rsvp-form" class="form validate-rsvp-form row" method="post">
+                            <div class="col col-sm-6">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name*">
+                            </div>
+                            <div class="col col-sm-6">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email*">
+                            </div>
+                            <div class="col col-sm-6">
+                                <select class="form-control" name="guest" >
+                                    <option disabled selected>Number Of Guest*</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                            <div class="col col-sm-6">
+                                <select class="form-control" name="events" >
+                                    <option disabled selected>I Am Attending*</option>
+                                    <option>Al events</option>
+                                    <option>Wedding ceremony</option>
+                                    <option>Reception party</option>
+                                </select>
+                            </div>
+                            <div class="col col-sm-12">
+                                <textarea class="form-control" name="notes" placeholder="Your Message*"></textarea>
+                            </div>
+                            <div class="col col-sm-12 submit-btn">
+                                <button type="submit" class="submit">Send Invitation</button>
+                                <span id="loader"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></span>
+                            </div>
+                            <div class="col col-md-12 success-error-message">
+                                <div id="success">Thank you</div>
+                                <div id="error"> Error occurred while sending email. Please try again later. </div>
+                            </div>
+                        </form>
+                    </div>
+                </div> end row
+            </div> end container
+        </section> -->
+        <!-- end rsvp-section -->
+
+
+        <!-- start getting-there-section -->
+        <section class="getting-there-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="section-title-white">
+                            <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                            <h2>Getting there</h2>
+                        </div>
+                    </div>
+                </div> <!-- end section-title -->
+
+                <div class="row content">
+                    <div class="col col-md-6">
+                        <h3>Transportation</h3>
+                        <p> Hyderabad is well connected via all means of transport. Rajiv Gandhi International Airport is 40 Km away from the city and the venue.
+                        Secundarabad is the nearest railway station about 15-20 Km from the venue.</p>
+                    </div>
+                    <div class="col col-md-6">
+                        <h3>Accommodations</h3>
+                        <p> Novotel Hyderabad</p>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section>
+        <!-- end getting-there-section -->
+
+
+        <!-- start gift-registration-section -->
+        <!-- <section class="gift-registration-section section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <div class="section-title">
+                            <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                            <h2>Gift registration</h2>
+                        </div>
+                    </div>
+                </div> end section-title
+
+                <div class="row content">
+                    <div class="col col-lg-10 col-lg-offset-1">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, cupiditate, repudiandae. A ab sit laboriosam quis distinctio dignissimos, nemo cum sed hic, deleniti maiores rem iste labore commodi perferendis cumque.repudiandae. A ab sit laboriosam quis distinctio dignissimos, nemo cum sed hic.</p>
+
+                        <div class="gif-registration-slider">
+                            <div class="register">
+                                <img src="images/gift/img-1.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="register">
+                                <img src="images/gift/img-2.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="register">
+                                <img src="images/gift/img-3.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="register">
+                                <img src="images/gift/img-1.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="register">
+                                <img src="images/gift/img-2.jpg" alt class="img img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div> end row
+            </div> end container
+        </section> -->
+        <!-- end gift-registration-section -->
+
+
+        <!-- start footer -->
+        <footer class="site-footer">
+            <div class="back-to-top">
+                <a href="#" class="back-to-top-btn"><span><i class="fi flaticon-cupid"></i></span></a>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <h2>Forever and Always Our Love</h2>
+                        <span>- Ankit (The groom)</span>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </footer>
+        <!-- end footer -->
+
+    </div>
+    <!-- end of page-wrapper -->
+
+
+
+    <!-- All JavaScript files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugins for this template -->
+    <script src="js/jquery-plugin-collection.js"></script>
+    <script src="js/spirit.js"></script>
+
+    <!-- Custom script for this template -->
+    <script src="js/script.js"></script>
+</body>
 </html>
-

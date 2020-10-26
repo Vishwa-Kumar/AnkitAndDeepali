@@ -16,6 +16,12 @@ public class FrontController {
 	String login(Model model) {
 		System.out.println("loginPage method");
 
+		return "index";
+	}
+	@RequestMapping("/sample")
+	String sample(Model model) {
+		System.out.println("loginPage method");
+
 		return "index-5";
 	}
 

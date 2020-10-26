@@ -470,7 +470,7 @@
         = COUNTDOWN CLOCK
     -------------------------------------------*/
     if ($("#clock").length) {
-        $('#clock').countdown('2020/12/30', function(event) {
+        $('#clock').countdown('2020/11/30', function(event) {
             var $this = $(this).html(event.strftime(''
             + '<div class="box"><div>%D</div> <span>Days</span> </div>'
             + '<div class="box"><div>%H</div> <span>Hours</span> </div>'
@@ -486,7 +486,7 @@
     if ($(".story-slider").length) {
         $('.story-slider').owlCarousel({
             items: 1,
-            dots: false,
+            dots: true,
             autoplay: true,
             autoplayTimeout: 3000,
             smartSpeed: 1000,
