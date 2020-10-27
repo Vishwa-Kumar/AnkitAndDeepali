@@ -709,6 +709,14 @@
 
             smoothScrolling($("#navbar > ul > li > a[href^='#']"), $(".header-style-1 .navigation").innerHeight());
 
+           /*  var x = document.getElementById("audio");
+            x.play(); */
+
+           
+            var audio = $("#audio")[0];
+            audio.autoplay;
+
+
         });
 
 

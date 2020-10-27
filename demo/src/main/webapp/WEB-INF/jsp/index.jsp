@@ -95,7 +95,7 @@
             </button>
 
             <div class="music-holder">
-            <iframe src="https://olafwempe.com/mp3/silence/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+            <iframe src="music/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
                <audio controls loop autoplay >
 					<source src="music/Never_Stop_Wedding_Version.mp3" type="audio/mpeg">
 					Your browser does not support the audio element.
@@ -891,7 +891,7 @@
                 <div class="row">
                     <div class="col col-xs-12">
                         <h2>Forever and Always Our Love</h2>
-                        <span>- Ankit (The groom)</span>
+                        <span>- Ankit (The groom) & Deepali (Bride)</span>
                     </div>
                 </div> <!-- end row -->
             </div> <!-- end container -->
