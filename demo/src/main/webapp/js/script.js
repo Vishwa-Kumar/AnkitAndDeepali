@@ -714,7 +714,9 @@
 
            
             var audio = $("#audio")[0];
+            
             audio.autoplay;
+            audio.play;
 
 
         });
@@ -725,6 +727,7 @@
         WHEN WINDOW SCROLL
     ==========================================================================*/
     $(window).on("scroll", function() {
+       
 
         bgParallax();
 

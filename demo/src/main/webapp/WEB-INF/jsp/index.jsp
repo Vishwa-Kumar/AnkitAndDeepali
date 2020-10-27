@@ -95,8 +95,8 @@
             </button>
 
             <div class="music-holder">
-            <iframe src="music/silence.mp3" type="audio/mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-               <audio controls loop autoplay >
+            <iframe src="music/silence.mp3" type="audio/mp3" allow="autoplay" id="iaudio" style="display:none"></iframe>
+               <audio id="audio" controls loop autoplay >
 					<source src="music/Never_Stop_Wedding_Version.mp3" type="audio/mpeg">
 					Your browser does not support the audio element.
 				</audio>
