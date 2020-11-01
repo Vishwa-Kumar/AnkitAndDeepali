@@ -1,48 +1,62 @@
 package com.example.demo;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.example.model.EventFormModel;
+import com.example.model.RsvpFormModel;
+import com.example.observer.EventBroadCaster;
+import com.example.observer.GuestObserver;
+import com.example.observer.Observer;
+import com.example.service.EmailService;
 
 @Controller
 public class FrontController {
 
+	@Autowired
+	private EmailService emailService;
+	
 	String uname = "";
 	String password = "";
+	BufferedReader reader;
 
 	
+
+	private EventBroadCaster s = new EventBroadCaster();
+
 	@RequestMapping("/")
 	String login(Model model) {
-		System.out.println("loginPage method");
+		System.out.println("loginPage method emailService"+emailService);
 
+		
 		return "index";
 	}
+
 	@RequestMapping("/sample")
 	String sample(Model model) {
 		System.out.println("loginPage method");
-
 		return "index-5";
 	}
 
-	@RequestMapping("/about")
+	@RequestMapping("/broadCastEvent")
 	String about(Model model) {
-		System.out.println("about method");
-
-		return "about";
-	}
-
-	@RequestMapping("/gallery")
-	String gallery(Model model) {
-		System.out.println("gallery method");
-
-		return "gallery";
+		System.out.println("broadCastEvent method");
+		loadObserver();
+		return "broadCastEvent";
 	}
 
 	@RequestMapping("/services")
 	String services(Model model) {
 		System.out.println("services method");
-
 		return "services";
 	}
 
@@ -54,35 +68,59 @@ public class FrontController {
 		return "login";
 	}
 
-	/*
-	 * @CrossOrigin(origins = "http://localhost:8080/sendBlessing")
-	 * 
-	 * @RequestMapping(value = "/sendBlessing", method = RequestMethod.POST) public
-	 * String method(HttpServletRequest httpServletRequest,HttpServletResponse
-	 * httpServletResponse) { System.out.println("send blessing invoked");
-	 * System.out.println("checking request name    "+httpServletRequest.
-	 * getParameter("name")); String
-	 * senderName=httpServletRequest.getParameter("name"); String
-	 * senderEmail=httpServletRequest.getParameter("email"); String
-	 * messageFor=httpServletRequest.getParameter("guest"); String
-	 * isAttending=httpServletRequest.getParameter("events"); String
-	 * message=httpServletRequest.getParameter("notes");
-	 * 
-	 * System.out.println("isAttending"+isAttending);
-	 * message=message+"\n\n-from \n "+senderName+" ("+senderEmail+")";
-	 * 
-	 * 
-	 * try { emailService.sendMail("vishwadeepak71@gmail.com",
-	 * "Blessing From "+senderName +" ("+senderEmail+")", message); try {
-	 * emailService.sendMail("amritanshaandtanmay@gmail.com",
-	 * "Blessing From "+senderName, message); } catch(Exception e) {
-	 * System.out.println("email sending failed to amritanshaandtanmay@gmail.co "+e.
-	 * getMessage()); }
-	 * 
-	 * System.out.println("email sent successfully"); } catch(Exception e) {
-	 * System.out.println("email sending failed to vishwadeepak71@gmail.com  :"+e.
-	 * getMessage()); }
-	 * 
-	 * return "true"; }
-	 */
+	@RequestMapping(value = "/notifyGuest", method = RequestMethod.POST)
+	String notifyGuest(@ModelAttribute("event-form") EventFormModel eventFormModel) {
+		System.out.println("notifyGuest method eventFormModel " + eventFormModel);
+		s.setEvent(eventFormModel);
+		return "true";
+	}
+
+	@RequestMapping(value = "/subscribe", method = RequestMethod.POST)
+	String subscribe(@ModelAttribute("rsvp-form") RsvpFormModel rsvpFormModel) {
+		System.out.println("subscribe method rsvpFormModel " + rsvpFormModel);
+		try {
+			String filename = "src/main/resources/guest.txt";
+			FileWriter fw = new FileWriter(filename, true); // the true will append the new data
+			fw.write(rsvpFormModel.getName().trim().toLowerCase() + ":" + rsvpFormModel.getEmail().trim().toLowerCase()
+					+ "\n");// appends the string to the file
+			fw.close();
+		} catch (IOException ioe) {
+			System.err.println("IOException: " + ioe.getMessage());
+		}
+
+		return "true";
+	}
+
+	public void sendMail(String to, String from, String subject, String body) {
+		
+		
+		emailService.sendMail(to, subject, body);
+
+	}
+	
+	public void loadObserver()
+	{
+		try {
+			String file = "src/main/resources/guest.txt";
+
+			reader = new BufferedReader(new FileReader(file));
+			String currentLine = reader.readLine();
+			while (currentLine != null) {
+				System.out.println("currentLine::: " + currentLine);
+				String name = currentLine.split(":")[0];
+				System.out.println("currentLine name::: " + name);
+				String email = currentLine.split(":")[1];
+				System.out.println("currentLine email::: " + email);
+				Observer o = new GuestObserver(s, name, email);
+				s.registerObserver(o);
+				currentLine = reader.readLine();
+			}
+			reader.close();
+
+		} catch (Exception e) {
+		} finally {
+
+		}
+
+	}
 }

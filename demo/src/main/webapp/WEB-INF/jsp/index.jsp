@@ -388,11 +388,7 @@
 								<div class="col col-md-6">
 									<div class="img-holder video-holder">
 										<img src="images/story/img-8.jpg" alt
-											class="img img-responsive"> <a
-											href="https://www.youtube.com/embed/XSGBVzeBUbk?autoplay=1"
-											data-type="iframe" class="video-play-btn"> <i
-											class="fa fa-play"></i>
-										</a>
+											class="img img-responsive">
 									</div>
 								</div>
 								<div class="col col-md-6 text-holder">
@@ -412,9 +408,9 @@
 						</div>
 					</div>
 				</div>
-				end row
+				<!-- end row -->
 			</div>
-			end container
+			<!-- end container -->
 		</section>
 		<!-- end story-section -->
 
