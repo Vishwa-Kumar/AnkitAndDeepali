@@ -536,11 +536,11 @@
                 email: "required",
 
                 guest: {
-                    required: true
+                    required: false
                 },
 
                 events: {
-                    required: true
+                    required: false
                 }
 
             },
@@ -556,7 +556,68 @@
                 $("#loader").css("display", "inline-block");
                 $.ajax({
                     type: "POST",
-                    url: "mail.php",
+                    url: "http://localhost:8080/subscribe",
+                    data: $(form).serialize(),
+                    success: function () {
+                        $( "#loader").hide();
+                        $( "#success").slideDown( "slow" );
+                        setTimeout(function() {
+                        $( "#success").slideUp( "slow" );
+                        }, 3000);
+                        form.reset();
+                    },
+                    error: function() {
+                        $( "#loader").hide();
+                        $( "#error").slideDown( "slow" );
+                        setTimeout(function() {
+                        $( "#error").slideUp( "slow" );
+                        }, 3000);
+                    }
+                });
+                return false; // required to block normal submit since you used ajax
+            }
+
+        });
+    }
+
+
+
+     if ($("#event-form").length) {
+        $("#event-form").validate({
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 2
+                },
+                date: "required",
+
+                starttime: {
+                    required: true
+                },
+
+                endtime: {
+                    required: true
+                },
+                 message: {
+                    required: true
+                }
+
+            },
+
+            messages: {
+                name: "Please enter event name",
+                date: "Please enter date of event",
+                starttime: "Select start time",
+                endtime: "Select end time",
+                message:"enter your message"
+            },
+
+            submitHandler: function (form) {
+                alert("hello")
+                $("#loader").css("display", "inline-block");
+                $.ajax({
+                    type: "POST",
+                    url: "http://localhost:8080/notifyGuest",
                     data: $(form).serialize(),
                     success: function () {
                         $( "#loader").hide();
