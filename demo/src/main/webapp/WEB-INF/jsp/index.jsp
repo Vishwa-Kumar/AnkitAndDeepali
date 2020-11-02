@@ -78,6 +78,19 @@
 .getting-there-section !important {
 	background-color: #ea003063;
 }
+
+.rsvp-section:after {
+    content: "";
+    background-color: rgb(0 0 0 / 92%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.getting-there-section {
+    background-color: #800023;
+}
 </style>
 
 </head>
