@@ -556,7 +556,7 @@
                 $("#loader").css("display", "inline-block");
                 $.ajax({
                     type: "POST",
-                    url: "http://localhost:8080/subscribe",
+                    url: "http://ankitanddeepali.com/subscribe",
                     data: $(form).serialize(),
                     success: function () {
                         $( "#loader").hide();
@@ -613,11 +613,10 @@
             },
 
             submitHandler: function (form) {
-                alert("hello")
                 $("#loader").css("display", "inline-block");
                 $.ajax({
                     type: "POST",
-                    url: "http://localhost:8080/notifyGuest",
+                    url: "http://ankitanddeepali.com/notifyGuest",
                     data: $(form).serialize(),
                     success: function () {
                         $( "#loader").hide();
