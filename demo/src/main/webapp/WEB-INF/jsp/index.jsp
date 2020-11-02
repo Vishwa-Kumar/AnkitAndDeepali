@@ -312,7 +312,7 @@
 						</div>
 					</div>
 				</div>
-				end section-title
+				<!-- end section-title -->
 
 				<div class="row">
 					<div class="col col-xs-12">
@@ -386,7 +386,7 @@
 							</div>
 							<div class="row">
 								<div class="col col-md-6">
-									<div class="img-holder video-holder">
+									<div class="img-holder">
 										<img src="images/story/img-8.jpg" alt
 											class="img img-responsive">
 									</div>
