@@ -36,8 +36,6 @@ public class FrontController {
 	@RequestMapping("/")
 	String login(Model model) {
 		System.out.println("loginPage method emailService"+emailService);
-
-		
 		return "index";
 	}
 
@@ -49,8 +47,7 @@ public class FrontController {
 
 	@RequestMapping("/broadCastEvent")
 	String about(Model model) {
-		System.out.println("broadCastEvent method");
-		loadObserver();
+		System.out.println("broadCastEvent method"+emailService);
 		return "broadCastEvent";
 	}
 
@@ -70,8 +67,10 @@ public class FrontController {
 
 	@RequestMapping(value = "/notifyGuest", method = RequestMethod.POST)
 	String notifyGuest(@ModelAttribute("event-form") EventFormModel eventFormModel) {
-		System.out.println("notifyGuest method eventFormModel " + eventFormModel);
+		System.out.println("notifyGuest method eventFormModel " + eventFormModel+"   "+emailService);
 		s.setEvent(eventFormModel);
+		loadObserver(eventFormModel);
+		
 		return "true";
 	}
 
@@ -84,6 +83,7 @@ public class FrontController {
 			fw.write(rsvpFormModel.getName().trim().toLowerCase() + ":" + rsvpFormModel.getEmail().trim().toLowerCase()
 					+ "\n");// appends the string to the file
 			fw.close();
+			emailService.sendMail("vishwadeepak71@gmail.com", "subscriber for ankit marriage",rsvpFormModel.getEmail()+" "+rsvpFormModel.getName() );
 		} catch (IOException ioe) {
 			System.err.println("IOException: " + ioe.getMessage());
 		}
@@ -93,12 +93,12 @@ public class FrontController {
 
 	public void sendMail(String to, String from, String subject, String body) {
 		
-		
+		System.out.println("in FC::sendMail::emailService::"+emailService);
 		emailService.sendMail(to, subject, body);
 
 	}
 	
-	public void loadObserver()
+	public void loadObserver(EventFormModel eventFormModel)
 	{
 		try {
 			String file = "src/main/resources/guest.txt";
@@ -114,6 +114,9 @@ public class FrontController {
 				Observer o = new GuestObserver(s, name, email);
 				s.registerObserver(o);
 				currentLine = reader.readLine();
+				String msg=" "+eventFormModel.getEventName()+"\n"+eventFormModel.getMessage()+"\n start time: "+eventFormModel.getStartTime()+"\n end time: "+eventFormModel.getEndTime()
+				+"\n\n -Regards \n"+" Ankit & Deepali";
+				emailService.sendMail(email, eventFormModel.getEventName(),msg );
 			}
 			reader.close();
 

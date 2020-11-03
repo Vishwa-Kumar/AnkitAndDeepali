@@ -1,11 +1,18 @@
 package com.example.observer;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
 import com.example.demo.FrontController;
 import com.example.model.EventFormModel;
+import com.example.service.EmailService;
 
-
+@Controller
 public class GuestObserver implements Observer{
 
+	
+	@Autowired
+	private EmailService emailService;
 	private String name;
 	private String email;
 	private boolean isSubscribed=true;
@@ -73,7 +80,7 @@ public class GuestObserver implements Observer{
 	
 	@Override
 	public void update(EventFormModel event) {
-		System.out.println("update observer"+this.email+ " "+event);
+		System.out.println("update observer"+this.email+ " "+event+"  emailService"+emailService);
 		this.eventDetails=event;
 		// send mail
 		try {

@@ -9,9 +9,8 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({ "com.example.demo", "com.example.service" })
+@ComponentScan({ "com.example.demo", "com.example.service","com.example.observer.GuestObserver","com.example.service" })
 public class AAndDWeddingApplication extends SpringBootServletInitializer {
-	
 	
 	
 	@Override
@@ -21,10 +20,9 @@ public class AAndDWeddingApplication extends SpringBootServletInitializer {
 	
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(AAndDWeddingApplication.class, args);
-
+		AAndDWeddingApplication app=new AAndDWeddingApplication();
 		try {
 			String file = "src/main/resources/guest.txt";
-			
 			/*
 			 * reader = new BufferedReader(new FileReader(file)); String currentLine =
 			 * reader.readLine(); while(currentLine!=null) {

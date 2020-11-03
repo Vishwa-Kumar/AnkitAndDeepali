@@ -2,12 +2,14 @@ package com.example.observer;
 
 import java.util.ArrayList;
 
+import org.springframework.stereotype.Controller;
+
 import com.example.model.EventFormModel;
 
-
+@Controller
 public class EventBroadCaster implements Subject {
 
-	private ArrayList<Observer> observers;
+	public ArrayList<Observer> observers;
 	//private String event = null;
 	private EventFormModel event;
 
