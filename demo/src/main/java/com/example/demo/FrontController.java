@@ -114,7 +114,7 @@ public class FrontController {
 				Observer o = new GuestObserver(s, name, email);
 				s.registerObserver(o);
 				currentLine = reader.readLine();
-				String msg=" "+eventFormModel.getEventName()+"\n"+eventFormModel.getMessage()+"\n start time: "+eventFormModel.getStartTime()+"\n end time: "+eventFormModel.getEndTime()
+				String msg=" "+eventFormModel.getEventName()+"\n"+eventFormModel.getMessage()+"\n date : "+eventFormModel.getDay()+"\n start time: "+eventFormModel.getStartTime()+"\n end time: "+eventFormModel.getEndTime()
 				+"\n\n -Regards \n"+" Ankit & Deepali";
 				emailService.sendMail(email, eventFormModel.getEventName(),msg );
 			}
