@@ -80,33 +80,36 @@
 }
 
 .rsvp-section:after {
-    content: "";
-    background-color: rgb(0 0 0 / 92%);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.getting-there-section {
-    background-color: #800023;
-}
-.count-down-section #clock {
-    color: #c60a72;
-    overflow: hidden;
-}
-.story-section .story-timeline h3 {
-    font-size: 22px;
-    font-size: 1.22222rem;
-    font-weight: 600;
-    color: #c60a72;
-    margin: 0 0 0.5em;
-    text-transform: uppercase;
-}
-.header-style-1 .couple-logo a, .header-style-2 .couple-logo a {
-    color: #c01665;
+	content: "";
+	background-color: rgb(0 0 0/ 92%);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 
+.getting-there-section {
+	background-color: #800023;
+}
+
+.count-down-section #clock {
+	color: #c60a72;
+	overflow: hidden;
+}
+
+.story-section .story-timeline h3 {
+	font-size: 22px;
+	font-size: 1.22222rem;
+	font-weight: 600;
+	color: #c60a72;
+	margin: 0 0 0.5em;
+	text-transform: uppercase;
+}
+
+.header-style-1 .couple-logo a, .header-style-2 .couple-logo a {
+	color: #c01665;
+}
 </style>
 
 </head>
@@ -217,9 +220,9 @@
 						<ul class="nav navbar-nav">
 							<li><a href="#home">Home</a></li>
 							<li><a href="#couple">Couple</a></li>
-							 <li><a href="#story">Story</a></li>
-                            <li><a href="#events">Events</a></li>
-                         <!--   <li><a href="#people">People</a></li>
+							<li><a href="#story">Story</a></li>
+							<li><a href="#events">Events</a></li>
+							<!--   <li><a href="#people">People</a></li>
                             <li><a href="#gallery">Gallery</a></li>
                             <li><a href="#rsvp">RSVP</a></li> -->
 							<!-- <li class="menu-item-has-children">
@@ -371,10 +374,9 @@
 							</div>
 							<div class="row">
 								<div class="col col-md-6">
-									<div class="img-holder right-align-text story-slider">
-										<img src="images/story/img-2.jpg" alt
-											class="img img-responsive"> <img
-											src="images/story/img-3.jpg" alt class="img img-responsive">
+									<div class="img-holder right-align-text">
+										<img src="images/story/img-3.jpg" alt
+											class="img img-responsive"> 
 									</div>
 								</div>
 								<div class="col col-md-6 text-holder">
@@ -406,10 +408,9 @@
 									</div>
 								</div>
 								<div class="col col-md-6">
-									<div class="img-holder right-align-text story-slider">
-										<img src="images/story/img-7.jpg" alt
-											class="img img-responsive"> <img
-											src="images/story/img-5.jpg" alt class="img img-responsive">
+									<div class="img-holder right-align-text">
+										<img src="images/story/img-5.jpg" alt
+											class="img img-responsive"> 
 									</div>
 								</div>
 							</div>
@@ -463,75 +464,105 @@
 
 
 		<!-- start events-section -->
-		 <section class="events-section section-padding" id="events">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-xs-12">
-                        <div class="section-title">
-                            <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                            <h2>Wedding events</h2>
-                        </div>
-                    </div>
-                </div> <!-- end section-title -->
+		<section class="events-section section-padding" id="events">
+			<div class="container">
+				<div class="row">
+					<div class="col col-xs-12">
+						<div class="section-title">
+							<div class="vertical-line">
+								<span><i class="fi flaticon-two"></i></span>
+							</div>
+							<h2>Wedding events</h2>
+						</div>
+					</div>
+				</div>
+				<!-- end section-title -->
 
-                <div class="row">
-                    <div class="col col-lg-10 col-lg-offset-1">
-                        <div class="event">
-                            <div class="img-holder">
-                                <img src="images/events/img-1.jpg" alt class="img img-responsive">
-                            </div>
-                            <div class="details">
-                                <h3>Satsang and Haldi</h3>
-                                <ul>
-                                    <li><i class="fa fa-map-marker"></i> Novotel, Ball Room, Hyderabad.</li>
-                                    <li><i class="fa fa-clock-o"></i> Nov 30 2030, 8AM </li>
-                                </ul>
-                                <p>Satsang / satsangam is a word which comes from Sanskrit, meaning to associate with true people, or to be in the company of true people. It is also related to sitting with a sat guru, or in a group meeting seeking that associatio<br><br>
-                                The Haldi ceremony is a ritual holy bath also known as pithi ceremony, which is one of the pre-wedding ceremonies in India. Turmeric (haldi), oil and water are applied to both the bride and groom by married women on the morning of the wedding. The mixture is believed to bless the couple before the wedding
-                                </p>
-                                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
-                                    See location <i class="fa fa-angle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="event">
-                            <div class="img-holder">
-                                <img src="images/events/img-2.jpg" alt class="img img-responsive">
-                            </div>
-                            <div class="details">
-                                <h3>Sangeet and Engagement </h3>
-                                <ul>
-                                    <li><i class="fa fa-map-marker"></i> Novotel, Lawns, Hyderabad.</li>
-                                    <li><i class="fa fa-clock-o"></i> Nov 30 2030, 12:30 PM</li>
-                                </ul>
-                                <p>Lets sing & dance together to cheer the love and the union between the two families.<br><br>
-                                
-The word "Sangeet" means music, but when it is used as a term to describe a celebratory event during an Indian wedding it translates to Music Night or Musical party. This musical night is a celebration of the union of not only the couple but the bonding of both families. </p>
-                                 <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
-                                    See location <i class="fa fa-angle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                              <div class="event">
-                            <div class="img-holder">
-                                <img src="images/events/img-3.jpg" alt class="img img-responsive">
-                            </div>
-                            <div class="details">
-                                <h3>Reception and Dinner </h3>
-                                <ul>
-                                    <li><i class="fa fa-map-marker"></i> Novotel, Lawns, Hyderabad.</li>
-                                    <li><i class="fa fa-clock-o"></i> Nov 30 2030, 7:00 PM</li>
-                                </ul>
-                                <p>Join us as we celebrate the joyous marriage of Ankit and Deepali</p>
-                                 <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
-                                    See location <i class="fa fa-angle-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </section> 
+				<div class="row">
+					<div class="col col-lg-10 col-lg-offset-1">
+						<div class="event">
+							<div class="img-holder">
+								<img src="images/events/img-1.jpg" alt
+									class="img img-responsive">
+							</div>
+							<div class="details">
+								<h3>Satsang and Haldi</h3>
+								<ul>
+									<li><i class="fa fa-map-marker"></i> Novotel, Ball Room,
+										Hyderabad.</li>
+									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 8AM</li>
+								</ul>
+								<p>
+									Satsang / satsangam is a word which comes from Sanskrit,
+									meaning to associate with true people, or to be in the company
+									of true people. It is also related to sitting with a sat guru,
+									or in a group meeting seeking that associatio<br>
+									<br> The Haldi ceremony is a ritual holy bath also known
+									as pithi ceremony, which is one of the pre-wedding ceremonies
+									in India. Turmeric (haldi), oil and water are applied to both
+									the bride and groom by married women on the morning of the
+									wedding. The mixture is believed to bless the couple before the
+									wedding
+								</p>
+								<a class="see-location-btn popup-gmaps"
+									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
+									See location <i class="fa fa-angle-right"></i>
+								</a>
+							</div>
+						</div>
+						<div class="event">
+							<div class="img-holder">
+								<img src="images/events/img-2.jpg" alt
+									class="img img-responsive">
+							</div>
+							<div class="details">
+								<h3>Sangeet and Engagement</h3>
+								<ul>
+									<li><i class="fa fa-map-marker"></i> Novotel, Lawns,
+										Hyderabad.</li>
+									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 12:30 PM</li>
+								</ul>
+								<p>
+									Lets sing & dance together to cheer the love and the union
+									between the two families.<br>
+									<br> The word "Sangeet" means music, but when it is used
+									as a term to describe a celebratory event during an Indian
+									wedding it translates to Music Night or Musical party. This
+									musical night is a celebration of the union of not only the
+									couple but the bonding of both families.
+								</p>
+								<a class="see-location-btn popup-gmaps"
+									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
+									See location <i class="fa fa-angle-right"></i>
+								</a>
+							</div>
+						</div>
+						<div class="event">
+							<div class="img-holder">
+								<img src="images/events/img-3.jpg" alt
+									class="img img-responsive">
+							</div>
+							<div class="details">
+								<h3>Reception and Dinner</h3>
+								<ul>
+									<li><i class="fa fa-map-marker"></i> Novotel, Lawns,
+										Hyderabad.</li>
+									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 7:00 PM</li>
+								</ul>
+								<p>Join us as we celebrate the joyous marriage of Ankit and
+									Deepali</p>
+								<a class="see-location-btn popup-gmaps"
+									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
+									See location <i class="fa fa-angle-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end row -->
+			</div>
+			<!-- end container -->
+		</section>
 		<!-- end events-section -->
 
 
