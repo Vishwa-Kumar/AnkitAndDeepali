@@ -447,7 +447,7 @@
 
 
 		<!-- start events-section -->
-		<!-- <section class="events-section section-padding" id="events">
+		 <section class="events-section section-padding" id="events">
             <div class="container">
                 <div class="row">
                     <div class="col col-xs-12">
@@ -456,7 +456,7 @@
                             <h2>Wedding events</h2>
                         </div>
                     </div>
-                </div> end section-title
+                </div> <!-- end section-title -->
 
                 <div class="row">
                     <div class="col col-lg-10 col-lg-offset-1">
@@ -465,13 +465,15 @@
                                 <img src="images/events/img-1.jpg" alt class="img img-responsive">
                             </div>
                             <div class="details">
-                                <h3>The reception</h3>
+                                <h3>Satsang and Haldi</h3>
                                 <ul>
-                                    <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
-                                    <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
+                                    <li><i class="fa fa-map-marker"></i> Novotel, Ball Room, Hyderabad.</li>
+                                    <li><i class="fa fa-clock-o"></i> Nov 30 2030, 8AM </li>
                                 </ul>
-                                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">
+                                <p>Satsang / satsangam is a word which comes from Sanskrit, meaning to associate with true people, or to be in the company of true people. It is also related to sitting with a sat guru, or in a group meeting seeking that associatio<br><br>
+                                The Haldi ceremony is a ritual holy bath also known as pithi ceremony, which is one of the pre-wedding ceremonies in India. Turmeric (haldi), oil and water are applied to both the bride and groom by married women on the morning of the wedding. The mixture is believed to bless the couple before the wedding
+                                </p>
+                                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
                                     See location <i class="fa fa-angle-right"></i>
                                 </a>
                             </div>
@@ -481,21 +483,37 @@
                                 <img src="images/events/img-2.jpg" alt class="img img-responsive">
                             </div>
                             <div class="details">
-                                <h3>Wedding party</h3>
+                                <h3>Sangeet and Engagement </h3>
                                 <ul>
-                                    <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
-                                    <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
+                                    <li><i class="fa fa-map-marker"></i> Novotel, Lawns, Hyderabad.</li>
+                                    <li><i class="fa fa-clock-o"></i> Nov 30 2030, 12:30 PM</li>
                                 </ul>
-                                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-                                <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.0160484383277!2d144.99053291585201!3d-37.81309307975254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642ef89a7e023%3A0xb1353055e38c1ab8!2sNew+York+Tomato+Cafe!5e0!3m2!1sbn!2sbd!4v1503743893919">
+                                <p>Lets sing & dance together to cheer the love and the union between the two families. </p>
+                                 <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
+                                    See location <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                              <div class="event">
+                            <div class="img-holder">
+                                <img src="images/events/img-3.jpg" alt class="img img-responsive">
+                            </div>
+                            <div class="details">
+                                <h3>Reception and Dinner </h3>
+                                <ul>
+                                    <li><i class="fa fa-map-marker"></i> Novotel, Lawns, Hyderabad.</li>
+                                    <li><i class="fa fa-clock-o"></i> Nov 30 2030, 7:00 PM</li>
+                                </ul>
+                                <p>Join us as we celebrate the joyous marriage of Ankit and Deepali</p>
+                                 <a class="see-location-btn popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
                                     See location <i class="fa fa-angle-right"></i>
                                 </a>
                             </div>
                         </div>
                     </div>
-                </div> end row
-            </div> end container
-        </section> -->
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </section> 
 		<!-- end events-section -->
 
 
