@@ -16,12 +16,14 @@ public class DBConnection {
 
 	// static method to create instance of Singleton class
 	public static Connection getInstance()  {
+		
 		String connectionUrl = "jdbc:mysql://vishwawebsitedb.ci2imxqem4ip.us-east-2.rds.amazonaws.com:3306/vishwaWebsite?serverTimezone=UTC";
 		if (single_Db_instance == null) {
 
 			try
 
 			{
+				Class.forName("com.mysql.jdbc.Driver");
 				single_Db_instance = DriverManager.getConnection(connectionUrl, "vishwa", "vishwakumardeepak");
 				dbConnectionObjectCount++;
 				System.out.println("connectin object count::" + dbConnectionObjectCount + " conn  "
@@ -35,6 +37,9 @@ public class DBConnection {
 					e1.printStackTrace();
 				}
 				// handle the exception
+			} catch (ClassNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 
 		}
