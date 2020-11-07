@@ -9,7 +9,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({ "com.example.demo", "com.example.service","com.example.observer.GuestObserver","com.example.service" })
+@ComponentScan({ "com.example.demo", "com.example.service","com.example.observer","com.example.service" })
 public class AAndDWeddingApplication extends SpringBootServletInitializer {
 	
 	

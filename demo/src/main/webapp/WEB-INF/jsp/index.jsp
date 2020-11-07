@@ -222,9 +222,10 @@
 							<li><a href="#couple">Couple</a></li>
 							<li><a href="#story">Story</a></li>
 							<li><a href="#events">Events</a></li>
+							<li><a href="#rsvp">subscribe</a></li>
 							<!--   <li><a href="#people">People</a></li>
                             <li><a href="#gallery">Gallery</a></li>
-                            <li><a href="#rsvp">RSVP</a></li> -->
+                           -->
 							<!-- <li class="menu-item-has-children">
                                 <a href="javascript:void(0);">Blog</a>
                                 <ul class="sub-menu">

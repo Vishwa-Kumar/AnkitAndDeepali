@@ -75,7 +75,7 @@ public class GuestObserver implements Observer{
 		this.name=name;
 		this.email=email;
 		this.s=sub;
-		s.registerObserver(this);
+		//s.registerObserver(this);
 	}
 	
 	@Override
