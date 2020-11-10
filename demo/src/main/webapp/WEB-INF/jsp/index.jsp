@@ -81,7 +81,7 @@
 
 .rsvp-section:after {
 	content: "";
-	background-color: rgb(0 0 0/ 92%);
+	background-color: rgb(0 0 0/ 50%);
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -109,6 +109,16 @@
 
 .header-style-1 .couple-logo a, .header-style-2 .couple-logo a {
 	color: #c01665;
+}
+.site-footer h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 67px;
+    font-size: 2.72222rem;
+    color: #fff;
+    margin: 0 0 0.3em;
+    padding: 0 240px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
 }
 </style>
 
@@ -375,8 +385,9 @@
 							</div>
 							<div class="row">
 								<div class="col col-md-6">
-									<div class="img-holder right-align-text">
+									<div class="img-holder right-align-text story-slider">
 										<img src="images/story/img-3.jpg" alt
+											class="img img-responsive"> <img src="images/story/img-2.jpg" alt
 											class="img img-responsive"> 
 									</div>
 								</div>
@@ -1051,6 +1062,12 @@
 					<div class="col col-xs-12">
 						<h2>Forever and Always Our Love</h2>
 						<span>- Ankit (The groom) & Deepali (Bride)</span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-xs-12">
+						<br>
+						<span>Developed with love for these love birds <br>- <a href="http://vishwakumardeepak.com" target="_blank">Vishwa Kumar Deepak</a></span>
 					</div>
 				</div>
 				<!-- end row -->
