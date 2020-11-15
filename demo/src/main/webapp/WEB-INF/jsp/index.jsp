@@ -163,7 +163,7 @@ text-decoration: bold;
 								data : JSON.stringify(input),
 								dataType : 'json',
 								success : function(data_response) {
-									console.log("success data_response"
+									console.log("success data_response");
 								},
 								error : function(data_response) {
 									console.log("error data_response"
