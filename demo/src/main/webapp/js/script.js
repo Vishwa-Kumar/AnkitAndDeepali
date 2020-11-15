@@ -556,7 +556,7 @@
                 $("#loader").css("display", "inline-block");
                 $.ajax({
                     type: "POST",
-                    url: "http://ankitanddeepali.com/subscribe",
+                    url: "https://www.ankitanddeepali.com/subscribe",
                     data: $(form).serialize(),
                     success: function (resp, status, err) {
                         alert(JSON.stringify(resp));
@@ -632,7 +632,7 @@
                 $("#loader").css("display", "inline-block");
                 $.ajax({
                     type: "POST",
-                    url: "http://ankitanddeepali.com/notifyGuest",
+                    url: "https://www.ankitanddeepali.com/notifyGuest",
                     data: $(form).serialize(),
                     success: function () {
                         $("#loader").hide();
