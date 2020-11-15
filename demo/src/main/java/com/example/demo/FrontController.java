@@ -10,10 +10,12 @@ import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.example.model.ClientDetails;
 import com.example.model.EventFormModel;
 import com.example.model.Result;
 import com.example.model.RsvpFormModel;
@@ -94,11 +96,38 @@ public class FrontController {
 		return json;
 	}
 
-	public void sendMail(String to, String from, String subject, String body) {
-		
-		System.out.println("in FC::sendMail::emailService::"+emailService);
-		emailService.sendMail(to, subject, body);
+	@RequestMapping(value = "/sendmail", method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+	public @ResponseBody Result sendmail(@RequestBody ClientDetails clientDetails,
+			HttpServletResponse httpServletResponse) {
 
+		ObjectMapper Obj = new ObjectMapper();
+		//VisitorService visitorService = new VisitorService();
+		Result res = null;
+		String json = null;
+		ObjectMapper objectMapper = new ObjectMapper();
+		System.out.println("send mail called " + clientDetails.toString());
+		try {
+
+			//res = visitorService.saveVisitorDetails(clientDetails);
+			//json = objectMapper.writeValueAsString(res);
+			
+			emailService.sendMail("viskumdee@gmail.com", "someone is visiting ankitanddeepali.com ",
+					Obj.writeValueAsString(clientDetails));
+			emailService.sendMail("deepalidas93@gmail.com", "someone is visiting ankitanddeepali.com ",
+					Obj.writeValueAsString(clientDetails));
+			
+			emailService.sendMail("aagarwal.kiit@gmail.com", "someone is visiting your website",
+					Obj.writeValueAsString(clientDetails));
+		} catch (JsonProcessingException e) {
+			e.printStackTrace();
+			System.out.println("not able to save visitor details to db" + e.getLocalizedMessage());
+
+		} catch (Exception e) {
+			System.out.println("sendMail failed" + e.getLocalizedMessage());
+
+		}
+
+		return res;
 	}
 	
 	public void fetchObserver(EventFormModel eventFormModel)

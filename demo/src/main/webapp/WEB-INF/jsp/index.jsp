@@ -126,6 +126,56 @@ text-decoration: bold;
 }
 </style>
 
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(
+			function() {
+
+				$.getJSON("https://api.ipify.org?format=jsonp&callback=?", function(data) {
+					console.log(JSON.stringify(data, null, 2));
+					sendMail(data);
+				});
+				console.log("ready!");
+				var day = new Date();
+				var wish = "Hi";
+				var hr = day.getHours();
+				if (hr >= 0 && hr < 12) {
+					wish = "Good Morning !";
+				} else if (hr == 12) {
+					wish = "Good Noon!";
+				} else if (hr >= 12 && hr <= 17) {
+					wish = "Good AferNoon !";
+				} else {
+					wish = "Good Evening !";
+				}
+				$('.wish').text(wish + " ");
+
+				function sendMail(input) {
+
+					$
+							.ajax({
+								type : "POST",
+							  url: "https://www.ankitanddeepali.com/sendmail",
+						 /* 	 url : "http://localhost:8080/sendmail",   */
+								contentType : "application/json",
+								data : JSON.stringify(input),
+								dataType : 'json',
+								success : function(data_response) {
+									console.log("success data_response"
+								},
+								error : function(data_response) {
+									console.log("error data_response"
+											+ JSON.stringify(data_response))
+								}
+							});
+				}
+
+			});
+</script>
+
+
 </head>
 
 <body id="home">
