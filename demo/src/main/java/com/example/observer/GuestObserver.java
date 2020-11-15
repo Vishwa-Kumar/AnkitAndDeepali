@@ -84,7 +84,7 @@ public class GuestObserver implements Observer{
 		this.eventDetails=event;
 		// send mail
 		try {
-			fc.sendMail(this.email,"vishwadeepaK71@gmail.com", this.eventDetails.getEventName(), this.eventDetails.getMessage());
+			//fc.sendMail(this.email,"vishwadeepaK71@gmail.com", this.eventDetails.getEventName(), this.eventDetails.getMessage());
 			//emailService.sendMail(this.email, this.eventDetails.getEventName(), this.eventDetails.getMessage());
 		}
 			catch (Exception e1) {
