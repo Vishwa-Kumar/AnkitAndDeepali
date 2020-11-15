@@ -116,9 +116,13 @@
     font-size: 2.72222rem;
     color: #fff;
     margin: 0 0 0.3em;
-    padding: 0 240px;
+    padding: 0 127px;
     text-transform: capitalize;
     letter-spacing: 5px;
+}
+.site-footer a {
+color:white;
+text-decoration: bold;
 }
 </style>
 
@@ -282,7 +286,7 @@
 										phase of my life with my beautiful Soulmate , Life has been
 										generous!
 									</p>
-									<span class="signature">Ankit</span>
+									<span class="signature">Deepali</span>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -296,8 +300,8 @@
 							<div class="details">
 								<div class="details-inner">
 									<h3>The Bride</h3>
-									<p>I am thinking about it, what should goes here</p>
-									<span class="signature">Deepali</span>
+									<p>She is Deepali and she needs no introduction. </p>
+									<span class="signature">Ankit</span>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
