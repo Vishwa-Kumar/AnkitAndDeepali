@@ -492,7 +492,7 @@ text-decoration: bold;
 									</span>
 									<div class="story-text">
 										<h3>Roka</h3>
-										<span class="date">Jul 24 2020</span>
+										<span class="date">Jul 23 2020</span>
 										<p>Corona is a bitch , but we got hitched! That is how
 											unstoppable we were that even the pandemic and lockdown
 											couldn't hinder us from having a close ceremony with our
@@ -557,6 +557,10 @@ text-decoration: bold;
 									<li><i class="fa fa-map-marker"></i> Novotel, Ball Room,
 										Hyderabad.</li>
 									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 8AM</li>
+									<a class="see-location-btn popup-gmaps"
+									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
+									See location <i class="fa fa-angle-right"></i>
+								</a>
 								</ul>
 								<p>
 									Satsang / satsangam is a word which comes from Sanskrit,
@@ -570,10 +574,7 @@ text-decoration: bold;
 									wedding. The mixture is believed to bless the couple before the
 									wedding
 								</p>
-								<a class="see-location-btn popup-gmaps"
-									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
-									See location <i class="fa fa-angle-right"></i>
-								</a>
+								
 							</div>
 						</div>
 						<div class="event">
@@ -587,6 +588,10 @@ text-decoration: bold;
 									<li><i class="fa fa-map-marker"></i> Novotel, Lawns,
 										Hyderabad.</li>
 									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 12:30 PM</li>
+									<a class="see-location-btn popup-gmaps"
+									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
+									See location <i class="fa fa-angle-right"></i>
+								</a>
 								</ul>
 								<p>
 									Lets sing & dance together to cheer the love and the union
@@ -597,10 +602,7 @@ text-decoration: bold;
 									musical night is a celebration of the union of not only the
 									couple but the bonding of both families.
 								</p>
-								<a class="see-location-btn popup-gmaps"
-									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
-									See location <i class="fa fa-angle-right"></i>
-								</a>
+								
 							</div>
 						</div>
 						<div class="event">
@@ -614,13 +616,14 @@ text-decoration: bold;
 									<li><i class="fa fa-map-marker"></i> Novotel, Lawns,
 										Hyderabad.</li>
 									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 7:00 PM</li>
-								</ul>
-								<p>Join us as we celebrate the joyous marriage of Ankit and
-									Deepali</p>
-								<a class="see-location-btn popup-gmaps"
+									<a class="see-location-btn popup-gmaps"
 									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
 									See location <i class="fa fa-angle-right"></i>
 								</a>
+								</ul>
+								<p>Join us as we celebrate the joyous marriage of Ankit and
+									Deepali</p>
+								
 							</div>
 						</div>
 					</div>
