@@ -418,7 +418,7 @@ text-decoration: bold;
 								<div class="col col-md-6">
 									<div class="story-text right-align-text">
 										<h3>First meet</h3>
-										<span class="date">Jan 12 2017</span>
+										<span class="date">March 23 2018</span>
 										<p>
 											Secunderabad Railway Station.<br> It does happen that a
 											train starts its run from the platform and stops minutes
@@ -465,7 +465,7 @@ text-decoration: bold;
 									</span>
 									<div class="story-text right-align-text">
 										<h3>Proposal</h3>
-										<span class="date">Apr 14 2017</span>
+										<span class="date">May 25 2020</span>
 										<p>17-10-03, Malaysian Township One fine day i just happen
 											to stop by his home totally unaware of what was instore until
 											he out of nowhere gathers his family and goes on knees! Yes ,
@@ -492,7 +492,7 @@ text-decoration: bold;
 									</span>
 									<div class="story-text">
 										<h3>Roka</h3>
-										<span class="date">Jul 14 2017</span>
+										<span class="date">Jul 24 2020</span>
 										<p>Corona is a bitch , but we got hitched! That is how
 											unstoppable we were that even the pandemic and lockdown
 											couldn't hinder us from having a close ceremony with our
