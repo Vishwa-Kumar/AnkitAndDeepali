@@ -1121,7 +1121,7 @@ text-decoration: bold;
 				<div class="row">
 					<div class="col col-xs-12">
 						<br>
-						<span>Developed with love for these love birds <br>- <a href="http://vishwakumardeepak.com" target="_blank">Vishwa Kumar Deepak</a></span>
+						<span>Developed with love for these love birds <br>- <a href="https://www.vishwakumardeepak.com" target="_blank">Vishwa Kumar Deepak</a></span>
 					</div>
 				</div>
 				<!-- end row -->
