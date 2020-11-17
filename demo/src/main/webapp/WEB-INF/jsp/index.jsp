@@ -338,7 +338,7 @@
 										phase of my life with my beautiful Soulmate , Life has been
 										generous!
 									</p>
-									<span class="signature">Deepali</span>
+									<span class="signature">Ankit</span>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -358,7 +358,7 @@
 										, and for the others , Hold On Guyz as I am too buzy gushing
 										over the Coming up episodes of life with my handsome co-star!
 									</p>
-									<span class="signature">Ankit</span>
+									<span class="signature">Deepali</span>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
