@@ -141,7 +141,8 @@ var ip;
 							
 							ip = data.ip;
 						}); 
-						
+						var details={};
+						details["ip"]=ip;
 						
 					//var ip="59.90.52.191";
 					    var api_key = "at_vHwaZS5xdzGvDKAk3BkXTwfbJ8vfc";
@@ -150,7 +151,13 @@ var ip;
 					           data: {apiKey: api_key, ipAddress: ip},
 					           success: function(dataFull) {
 					               console.log(JSON.stringify(dataFull, null, 2));
-					             sendMail(dataFull);
+					            
+					             details["country"]=dataFull.location.country;
+					             details["region"]=dataFull.location.region;
+					             details["zip"]=dataFull.location.postalCode;
+					             details["city"]=dataFull.location.city;
+					             console.log(JSON.stringify(details, null, 2));
+					             sendMail(details);
 					           }
 						});
 				console.log("ready!");
