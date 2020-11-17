@@ -134,11 +134,24 @@
 <script type="text/javascript">
 	$(document).ready(
 			function() {
-
-				$.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+var ip;
+				 $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
 						function(data) {
 							console.log(JSON.stringify(data, null, 2));
-							sendMail(data);
+							
+							ip = data.ip;
+						}); 
+						
+						
+					//var ip="59.90.52.191";
+					    var api_key = "at_vHwaZS5xdzGvDKAk3BkXTwfbJ8vfc";
+						$.ajax({
+					           url: "https://geo.ipify.org/api/v1",
+					           data: {apiKey: api_key, ipAddress: ip},
+					           success: function(dataFull) {
+					               console.log(JSON.stringify(dataFull, null, 2));
+					             sendMail(dataFull);
+					           }
 						});
 				console.log("ready!");
 				var day = new Date();
@@ -338,7 +351,7 @@
 										phase of my life with my beautiful Soulmate , Life has been
 										generous!
 									</p>
-									<!-- <span class="signature">Ankit</span> -->
+									<span class="signature">Ankit</span>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -358,7 +371,7 @@
 										, and for the others , Hold On Guyz as I am too buzy gushing
 										over the Coming up episodes of life with my handsome co-star!
 									</p>
-									<!-- <span class="signature">Deepali</span> -->
+									<span class="signature">Deepali</span>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 										<li><a href="#"><i class="fa fa-twitter"></i></a></li>
