@@ -1131,7 +1131,7 @@
 				<div class="row">
 					<div class="col col-xs-12">
 						<h2>Forever and Always Our Love</h2>
-						<span>- Ankit (The groom) & Deepali (Bride)</span>
+						<span>- Ankit & Deepali </span>
 					</div>
 				</div>
 				<div class="row">
