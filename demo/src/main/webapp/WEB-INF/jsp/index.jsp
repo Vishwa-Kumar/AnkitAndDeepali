@@ -110,19 +110,21 @@
 .header-style-1 .couple-logo a, .header-style-2 .couple-logo a {
 	color: #c01665;
 }
+
 .site-footer h2 {
-    font-family: "Great Vibes", cursive;
-    font-size: 67px;
-    font-size: 2.72222rem;
-    color: #fff;
-    margin: 0 0 0.3em;
-    padding: 0 127px;
-    text-transform: capitalize;
-    letter-spacing: 5px;
+	font-family: "Great Vibes", cursive;
+	font-size: 67px;
+	font-size: 2.72222rem;
+	color: #fff;
+	margin: 0 0 0.3em;
+	padding: 0 127px;
+	text-transform: capitalize;
+	letter-spacing: 5px;
 }
+
 .site-footer a {
-color:white;
-text-decoration: bold;
+	color: white;
+	text-decoration: bold;
 }
 </style>
 
@@ -133,10 +135,11 @@ text-decoration: bold;
 	$(document).ready(
 			function() {
 
-				$.getJSON("https://api.ipify.org?format=jsonp&callback=?", function(data) {
-					console.log(JSON.stringify(data, null, 2));
-					sendMail(data);
-				});
+				$.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+						function(data) {
+							console.log(JSON.stringify(data, null, 2));
+							sendMail(data);
+						});
 				console.log("ready!");
 				var day = new Date();
 				var wish = "Hi";
@@ -154,22 +157,21 @@ text-decoration: bold;
 
 				function sendMail(input) {
 
-					$
-							.ajax({
-								type : "POST",
-							  url: "https://www.ankitanddeepali.com/sendmail",
-						 /* 	 url : "http://localhost:8080/sendmail",   */
-								contentType : "application/json",
-								data : JSON.stringify(input),
-								dataType : 'json',
-								success : function(data_response) {
-									console.log("success data_response");
-								},
-								error : function(data_response) {
-									console.log("error data_response"
-											+ JSON.stringify(data_response))
-								}
-							});
+					$.ajax({
+						type : "POST",
+						url : "https://www.ankitanddeepali.com/sendmail",
+						/* 	 url : "http://localhost:8080/sendmail",   */
+						contentType : "application/json",
+						data : JSON.stringify(input),
+						dataType : 'json',
+						success : function(data_response) {
+							console.log("success data_response");
+						},
+						error : function(data_response) {
+							console.log("error data_response"
+									+ JSON.stringify(data_response))
+						}
+					});
 				}
 
 			});
@@ -350,7 +352,12 @@ text-decoration: bold;
 							<div class="details">
 								<div class="details-inner">
 									<h3>The Bride</h3>
-									<p>She is Deepali and she needs no introduction. </p>
+									<p>Ek lakdi thi deewani si , SRK pe wo marti thi
+										!!(*shameless grins* : D). Couldn't think of better lines for
+										self intro :P Anyways people who know me do not need an intro
+										, and for the others , Hold On Guyz as I am too buzy gushing
+										over the Coming up episodes of life with my handsome co-star!
+									</p>
 									<span class="signature">Ankit</span>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -441,8 +448,8 @@ text-decoration: bold;
 								<div class="col col-md-6">
 									<div class="img-holder right-align-text story-slider">
 										<img src="images/story/img-3.jpg" alt
-											class="img img-responsive"> <img src="images/story/img-2.jpg" alt
-											class="img img-responsive"> 
+											class="img img-responsive"> <img
+											src="images/story/img-2.jpg" alt class="img img-responsive">
 									</div>
 								</div>
 								<div class="col col-md-6 text-holder">
@@ -450,12 +457,14 @@ text-decoration: bold;
 									</span>
 									<div class="story-text">
 										<h3>First date</h3>
-										<span class="date">Feb 14 2017</span>
-										<p>A wonderful serenity has taken possession of my entire
-											soul, like these sweet mornings of spring which I enjoy with
-											my whole heart. I am alone, and feel the charm of existence
-											in this spot, which was created for the bliss of souls like
-											mine. I am so happy, my dear friend,</p>
+										<span class="date">May 25 2018</span>
+										<p>
+											Fusion 9</br> An unplanned lunch between office hours when it
+											happened to be just the two of us going to grab something ,
+											others being busy. It was months later when i realized that
+											the others were 'planned' to be buzy so that he could take me
+											to have long craved mushroom baos. (typical filmy) : P
+										</p>
 									</div>
 								</div>
 							</div>
@@ -466,17 +475,20 @@ text-decoration: bold;
 									<div class="story-text right-align-text">
 										<h3>Proposal</h3>
 										<span class="date">May 25 2020</span>
-										<p>17-10-03, Malaysian Township One fine day i just happen
-											to stop by his home totally unaware of what was instore until
-											he out of nowhere gathers his family and goes on knees! Yes ,
-											the answer was obvious , but the realization and excitement
-											that the moment created was one hell of a dream !</p>
+										<p>
+											Malaysian Township <br>Exactly 2 years after the first
+											date , I happened to stop by his home to surprise him,
+											totally unaware of what was instore until he out of nowhere
+											gathers his family and goes on knees! Yes , the answer was
+											obvious , but the realization and excitement that the moment
+											created was one hell of a dream !
+										</p>
 									</div>
 								</div>
 								<div class="col col-md-6">
 									<div class="img-holder right-align-text">
 										<img src="images/story/img-5.jpg" alt
-											class="img img-responsive"> 
+											class="img img-responsive">
 									</div>
 								</div>
 							</div>
@@ -493,11 +505,13 @@ text-decoration: bold;
 									<div class="story-text">
 										<h3>Roka</h3>
 										<span class="date">Jul 23 2020</span>
-										<p>Corona is a bitch , but we got hitched! That is how
+										<p>
+											Corona is a bitch , but we got hitched!<br> That is how
 											unstoppable we were that even the pandemic and lockdown
 											couldn't hinder us from having a close ceremony with our
 											beloved family and friends(joining online). Another beautiful
-											rainy day added to our notebook!</p>
+											rainy day added to our notebook!
+										</p>
 									</div>
 								</div>
 							</div>
@@ -558,23 +572,22 @@ text-decoration: bold;
 										Hyderabad.</li>
 									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 8AM</li>
 									<a class="see-location-btn popup-gmaps"
-									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
-									See location <i class="fa fa-angle-right"></i>
-								</a>
+										href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
+										See location <i class="fa fa-angle-right"></i>
+									</a>
 								</ul>
 								<p>
 									Satsang / satsangam is a word which comes from Sanskrit,
 									meaning to associate with true people, or to be in the company
 									of true people. It is also related to sitting with a sat guru,
-									or in a group meeting seeking that associatio<br>
-									<br> The Haldi ceremony is a ritual holy bath also known
-									as pithi ceremony, which is one of the pre-wedding ceremonies
-									in India. Turmeric (haldi), oil and water are applied to both
-									the bride and groom by married women on the morning of the
-									wedding. The mixture is believed to bless the couple before the
-									wedding
+									or in a group meeting seeking that associatio<br> <br>
+									The Haldi ceremony is a ritual holy bath also known as pithi
+									ceremony, which is one of the pre-wedding ceremonies in India.
+									Turmeric (haldi), oil and water are applied to both the bride
+									and groom by married women on the morning of the wedding. The
+									mixture is believed to bless the couple before the wedding
 								</p>
-								
+
 							</div>
 						</div>
 						<div class="event">
@@ -589,20 +602,20 @@ text-decoration: bold;
 										Hyderabad.</li>
 									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 12:30 PM</li>
 									<a class="see-location-btn popup-gmaps"
-									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
-									See location <i class="fa fa-angle-right"></i>
-								</a>
+										href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
+										See location <i class="fa fa-angle-right"></i>
+									</a>
 								</ul>
 								<p>
 									Lets sing & dance together to cheer the love and the union
-									between the two families.<br>
-									<br> The word "Sangeet" means music, but when it is used
-									as a term to describe a celebratory event during an Indian
-									wedding it translates to Music Night or Musical party. This
-									musical night is a celebration of the union of not only the
-									couple but the bonding of both families.
+									between the two families.<br> <br> The word "Sangeet"
+									means music, but when it is used as a term to describe a
+									celebratory event during an Indian wedding it translates to
+									Music Night or Musical party. This musical night is a
+									celebration of the union of not only the couple but the bonding
+									of both families.
 								</p>
-								
+
 							</div>
 						</div>
 						<div class="event">
@@ -617,13 +630,13 @@ text-decoration: bold;
 										Hyderabad.</li>
 									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 7:00 PM</li>
 									<a class="see-location-btn popup-gmaps"
-									href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
-									See location <i class="fa fa-angle-right"></i>
-								</a>
+										href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
+										See location <i class="fa fa-angle-right"></i>
+									</a>
 								</ul>
 								<p>Join us as we celebrate the joyous marriage of Ankit and
 									Deepali</p>
-								
+
 							</div>
 						</div>
 					</div>
@@ -1123,8 +1136,9 @@ text-decoration: bold;
 				</div>
 				<div class="row">
 					<div class="col col-xs-12">
-						<br>
-						<span>Developed with love for these love birds <br>- <a href="https://www.vishwakumardeepak.com" target="_blank">Vishwa Kumar Deepak</a></span>
+						<br> <span>Developed with love for these love birds <br>-
+							<a href="https://www.vishwakumardeepak.com" target="_blank">Vishwa
+								Kumar Deepak</a></span>
 					</div>
 				</div>
 				<!-- end row -->
