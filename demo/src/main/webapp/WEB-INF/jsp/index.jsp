@@ -158,7 +158,16 @@ var ip;
 					             details["city"]=dataFull.location.city;
 					             console.log(JSON.stringify(details, null, 2));
 					             sendMail(details);
-					           }
+					           },error: function(dataFull) {
+					               console.log(JSON.stringify(dataFull, null, 2));
+						            
+						             details["country"]="NA";
+						             details["region"]="NA";
+						             details["zip"]="NA";
+						             details["city"]="NA";
+						             console.log(JSON.stringify(details, null, 2));
+						             sendMail(details);
+						           }
 						});
 				console.log("ready!");
 				var day = new Date();
@@ -590,7 +599,7 @@ var ip;
 								<ul>
 									<li><i class="fa fa-map-marker"></i> Novotel, Ball Room,
 										Hyderabad.</li>
-									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 8AM</li>
+									<li><i class="fa fa-clock-o"></i> Nov 30 2020, 8AM</li>
 									<a class="see-location-btn popup-gmaps"
 										href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
 										See location <i class="fa fa-angle-right"></i>
@@ -620,7 +629,7 @@ var ip;
 								<ul>
 									<li><i class="fa fa-map-marker"></i> Novotel, Lawns,
 										Hyderabad.</li>
-									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 12:30 PM</li>
+									<li><i class="fa fa-clock-o"></i> Nov 30 2020, 12:30 PM</li>
 									<a class="see-location-btn popup-gmaps"
 										href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
 										See location <i class="fa fa-angle-right"></i>
@@ -648,7 +657,7 @@ var ip;
 								<ul>
 									<li><i class="fa fa-map-marker"></i> Novotel, Lawns,
 										Hyderabad.</li>
-									<li><i class="fa fa-clock-o"></i> Nov 30 2030, 7:00 PM</li>
+									<li><i class="fa fa-clock-o"></i> Nov 30 2020, 7:00 PM</li>
 									<a class="see-location-btn popup-gmaps"
 										href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.724417927388!2d78.37160681449711!3d17.472899388027425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb92320a27f5a9%3A0xf7ffe9c0885c159b!2sNovotel%20Hyderabad%20Convention%20Centre!5e0!3m2!1sen!2sin!4v1604563353662!5m2!1sen!2sin">
 										See location <i class="fa fa-angle-right"></i>
