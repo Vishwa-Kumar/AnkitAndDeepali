@@ -361,8 +361,7 @@ var ip;
 									<p>
 										Big Time Mumma's Boy!<br> Drastically pampered family
 										person('kid') , who believes in living life in the present and
-										to the fullest. Love the people I love and equally sour away
-										from the disliked ones. From enjoying the tiniest of
+										to the fullest. Love the people I love, cherish surprising and keeping my dear ones happy ! From enjoying the tiniest of
 										opportunities and pleasures to now stepping into this exciting
 										phase of my life with my beautiful Soulmate , Life has been
 										generous!
