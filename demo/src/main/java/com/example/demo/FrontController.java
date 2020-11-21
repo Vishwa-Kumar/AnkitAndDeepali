@@ -136,8 +136,8 @@ public class FrontController {
 		
 		for(GuestObserver o:obsList)
 		{
-			String msg=" "+eventFormModel.getEventName()+"\n"+eventFormModel.getMessage()+"\n date : "+eventFormModel.getDay()+"\n start time: "+eventFormModel.getStartTime()+"\n end time: "+eventFormModel.getEndTime()
-			+"\n\n -Regards \n"+" Ankit & Deepali";
+			String msg=" Hi "+commonService.capitalize(o.getName())+", \n"+eventFormModel.getMessage()+"\n date : "+eventFormModel.getDay()+"\n start time: "+eventFormModel.getStartTime()+"\n end time: "+eventFormModel.getEndTime()
+			+"\n\n -Regards \n"+" Ankit & Deepali \n"+"www.ankitanddeepali.com";
 			emailService.sendMail(o.getEmail(), eventFormModel.getEventName(),msg );
 		}
 		
