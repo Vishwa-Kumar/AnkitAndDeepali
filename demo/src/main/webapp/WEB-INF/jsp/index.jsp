@@ -474,9 +474,8 @@ var ip;
 							</div>
 							<div class="row">
 								<div class="col col-md-6">
-									<div class="img-holder right-align-text story-slider">
-										<img src="images/story/img-3.jpg" alt
-											class="img img-responsive"> <img
+									<div class="img-holder right-align-text">
+										 <img
 											src="images/story/img-2.jpg" alt class="img img-responsive">
 									</div>
 								</div>
