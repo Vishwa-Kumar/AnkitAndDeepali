@@ -559,7 +559,7 @@
                     url: "https://www.ankitanddeepali.com/subscribe",
                     data: $(form).serialize(),
                     success: function (resp, status, err) {
-                        alert(JSON.stringify(resp));
+                        console.log(JSON.stringify(resp));
 
                         if (resp.errorCode != 0) {
                             $("#loader").hide();
@@ -581,7 +581,7 @@
                       
                     },
                     error: function (req, status, err) {
-                        alert(JSON.stringify(req));
+                    	console.log(JSON.stringify(req));
                         console.log('Something went wrong', status, err);
                         $("#loader").hide();
                         $("#error").slideDown("slow");
