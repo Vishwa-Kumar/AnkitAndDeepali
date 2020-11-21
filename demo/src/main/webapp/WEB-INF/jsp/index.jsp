@@ -1099,7 +1099,7 @@ var ip;
 					</div>
 					<div class="col col-md-6">
 						<h3>Accommodations</h3>
-						<p>Novotel Hyderabad</p>
+						<p>Novotel-HICC, Hitech City<br> Hyderabad</p>
 					</div>
 				</div>
 				<!-- end row -->
