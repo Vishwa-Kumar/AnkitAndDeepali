@@ -134,41 +134,45 @@
 <script type="text/javascript">
 	$(document).ready(
 			function() {
-var ip;
-				 $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+				var ip;
+				$.getJSON("https://api.ipify.org?format=jsonp&callback=?",
 						function(data) {
 							console.log(JSON.stringify(data, null, 2));
-							
+
 							ip = data.ip;
-						}); 
-						var details={};
-						details["ip"]=ip;
-						
-					//var ip="59.90.52.191";
-					    var api_key = "at_vHwaZS5xdzGvDKAk3BkXTwfbJ8vfc";
-						$.ajax({
-					           url: "https://geo.ipify.org/api/v1",
-					           data: {apiKey: api_key, ipAddress: ip},
-					           success: function(dataFull) {
-					               console.log(JSON.stringify(dataFull, null, 2));
-					            
-					             details["country"]=dataFull.location.country;
-					             details["region"]=dataFull.location.region;
-					             details["zip"]=dataFull.location.postalCode;
-					             details["city"]=dataFull.location.city;
-					             console.log(JSON.stringify(details, null, 2));
-					             sendMail(details);
-					           },error: function(dataFull) {
-					               console.log(JSON.stringify(dataFull, null, 2));
-						            
-						             details["country"]="NA";
-						             details["region"]="NA";
-						             details["zip"]="NA";
-						             details["city"]="NA";
-						             console.log(JSON.stringify(details, null, 2));
-						             sendMail(details);
-						           }
 						});
+				var details = {};
+				details["ip"] = ip;
+
+				//var ip="59.90.52.191";
+				var api_key = "at_vHwaZS5xdzGvDKAk3BkXTwfbJ8vfc";
+				$.ajax({
+					url : "https://geo.ipify.org/api/v1",
+					data : {
+						apiKey : api_key,
+						ipAddress : ip
+					},
+					success : function(dataFull) {
+						console.log(JSON.stringify(dataFull, null, 2));
+
+						details["country"] = dataFull.location.country;
+						details["region"] = dataFull.location.region;
+						details["zip"] = dataFull.location.postalCode;
+						details["city"] = dataFull.location.city;
+						console.log(JSON.stringify(details, null, 2));
+						sendMail(details);
+					},
+					error : function(dataFull) {
+						console.log(JSON.stringify(dataFull, null, 2));
+
+						details["country"] = "NA";
+						details["region"] = "NA";
+						details["zip"] = "NA";
+						details["city"] = "NA";
+						console.log(JSON.stringify(details, null, 2));
+						sendMail(details);
+					}
+				});
 				console.log("ready!");
 				var day = new Date();
 				var wish = "Hi";
@@ -358,14 +362,13 @@ var ip;
 							<div class="details">
 								<div class="details-inner">
 									<h3>The groom</h3>
-									<p>
-										Big Time Mumma's Boy!<br> Drastically pampered family
-										person('kid') , who believes in living life in the present and
-										to the fullest. Love the people I love, cherish surprising and keeping my dear ones happy ! From enjoying the tiniest of
-										opportunities and pleasures to now stepping into this exciting
-										phase of my life with my beautiful Soulmate , Life has been
-										generous!
-									</p>
+									<p>Well, I am popularly known to be a big Time Mumma's Boy
+										and a pampered family person('kid') who believes in living
+										life in the present and to the fullest. Love the people I love
+										& cherish surprising and keeping my dear ones happy! From
+										enjoying the tiniest of opportunities and pleasures to now
+										stepping into this exciting phase of my life with my beautiful
+										Soulmate , Life has been generous!</p>
 									<span class="signature">Ankit</span>
 									<ul class="social-links">
 										<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -475,8 +478,8 @@ var ip;
 							<div class="row">
 								<div class="col col-md-6">
 									<div class="img-holder right-align-text">
-										 <img
-											src="images/story/img-2.jpg" alt class="img img-responsive">
+										<img src="images/story/img-2.jpg" alt
+											class="img img-responsive">
 									</div>
 								</div>
 								<div class="col col-md-6 text-holder">
@@ -1098,7 +1101,9 @@ var ip;
 					</div>
 					<div class="col col-md-6">
 						<h3>Accommodations</h3>
-						<p>Novotel-HICC, Hitech City<br> Hyderabad</p>
+						<p>
+							Novotel-HICC, Hitech City<br> Hyderabad
+						</p>
 					</div>
 				</div>
 				<!-- end row -->
