@@ -146,16 +146,16 @@
 									//alert(JSON.stringify(dataFull, null, 2));
 									console.log(JSON.stringify(dataFull, null, 2));
 
-									details["country"] = dataFull.location.country_name;
-									details["countryCode"] = dataFull.location.country_code;
-									details["regionName"] = dataFull.location.region_name;
-									details["timezone"] = dataFull.location.time_zone;
-									details["region"] = dataFull.location.region_code;
-									details["zip"] = dataFull.location.zip_code;
-									details["city"] = dataFull.location.city;
-									details["lat"] = dataFull.location.latitude;
-									details["lon"] = dataFull.location.longitude;
-									details["query"] = dataFull.location.ip;
+									details["country"] = dataFull.country_name;
+									details["countryCode"] = dataFull.country_code;
+									details["regionName"] = dataFull.region_name;
+									details["timezone"] = dataFull.time_zone;
+									details["region"] = dataFull.region_code;
+									details["zip"] = dataFull.zip_code;
+									details["city"] = dataFull.city;
+									details["lat"] = dataFull.latitude;
+									details["lon"] = dataFull.longitude;
+									details["query"] = dataFull.ip;
 									console.log(JSON.stringify(details, null, 2));
 									sendMail(details);
 								},
