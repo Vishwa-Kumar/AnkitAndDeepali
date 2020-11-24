@@ -143,7 +143,7 @@
 							$.ajax({
 								url : "https://freegeoip.app/json/"+ip,
 								success : function(dataFull) {
-									alert(JSON.stringify(dataFull, null, 2));
+									//alert(JSON.stringify(dataFull, null, 2));
 									console.log(JSON.stringify(dataFull, null, 2));
 
 									details["country"] = dataFull.location.country_name;
