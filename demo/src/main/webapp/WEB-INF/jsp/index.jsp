@@ -174,23 +174,8 @@
 				var details = {};
 				details["ip"] = ip;
 
-				//var ip="59.90.52.191";
-				var api_key = "at_vHwaZS5xdzGvDKAk3BkXTwfbJ8vfc";
 			
 				console.log("ready!");
-				var day = new Date();
-				var wish = "Hi";
-				var hr = day.getHours();
-				if (hr >= 0 && hr < 12) {
-					wish = "Good Morning !";
-				} else if (hr == 12) {
-					wish = "Good Noon!";
-				} else if (hr >= 12 && hr <= 17) {
-					wish = "Good AferNoon !";
-				} else {
-					wish = "Good Evening !";
-				}
-				$('.wish').text(wish + " ");
 
 				function sendMail(input) {
 
@@ -238,7 +223,7 @@
 			</button>
 
 			<div class="music-holder">
-				<iframe src="music/silence.mp3" type="audio/mp3" allow="autoplay"
+				<iframe src="http://localhost:8080/music/silence.mp3" type="audio/mp3" allow="autoplay"
 					id="iaudio" style="display: none"></iframe>
 				<audio id="audio" controls loop autoplay>
 					<source src="music/Never_Stop_Wedding_Version.mp3"
