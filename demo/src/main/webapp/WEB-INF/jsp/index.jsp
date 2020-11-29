@@ -126,6 +126,21 @@
 	color: white;
 	text-decoration: bold;
 }
+
+
+.liveLink a {
+    color: #ffffff;
+    text-decoration: blink;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
 </style>
 
 
@@ -268,15 +283,20 @@
 								class=" wow fadeInUp" data-wow-delay="1.85s">i</span> <span
 								class=" wow fadeInUp" data-wow-delay="1.90s">e</span> <span
 								class=" wow fadeInUp" data-wow-delay="1.95s">d</span>
+								
 
 						</h4>
+						
 					</div>
+					
 					<!-- <i class="fa fa-heart"></i> -->
 				</div>
+				
 
 				<div class="save-the-date">
 					<h4>Save the date</h4>
-					<span class="date">30 NOV 2020</span>
+					<span class="date">30 NOV 2020</span><br>
+					
 				</div>
 			</div>
 		</section>
@@ -311,6 +331,7 @@
 							<li><a href="#story">Story</a></li>
 							<li><a href="#events">Events</a></li>
 							<li><a href="#rsvp">subscribe</a></li>
+							<li class="blink_me" style="text-decoration:underline;"><a href="http://nvlivestreaming.com/deepaliwithankit" target="_blank">click to watch Live</a></li>
 							<!--   <li><a href="#people">People</a></li>
                             <li><a href="#gallery">Gallery</a></li>
                            -->
@@ -408,6 +429,7 @@
 					<div class="col col-md-4">
 						<h2>
 							<span>We are waiting for.....</span> The adventure
+							<span class="liveLink blink_me"><a href="http://nvlivestreaming.com/deepaliwithankit" target="_blank">Watch Live</a></span>
 						</h2>
 					</div>
 					<div class="col col-md-7 col-md-offset-1">
