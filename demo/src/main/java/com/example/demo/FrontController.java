@@ -111,8 +111,7 @@ public class FrontController {
 			//res = visitorService.saveVisitorDetails(clientDetails);
 			//json = objectMapper.writeValueAsString(res);
 			
-			emailService.sendMail("viskumdee@gmail.com", "someone is visiting ankitanddeepali.com ",
-					Obj.writeValueAsString(clientDetails));
+			
 			emailService.sendMail("deepalidas93@gmail.com", "someone is visiting ankitanddeepali.com ",
 					Obj.writeValueAsString(clientDetails));
 			
@@ -137,7 +136,7 @@ public class FrontController {
 		for(GuestObserver o:obsList)
 		{
 			String msg=" Hi "+commonService.capitalize(o.getName())+", \n"+eventFormModel.getMessage()+"\n date : "+eventFormModel.getDay()+"\n start time: "+eventFormModel.getStartTime()+"\n end time: "+eventFormModel.getEndTime()
-			+"\n\n -Regards \n"+" Ankit & Deepali \n"+"www.ankitanddeepali.com";
+			+"\n\n -Regards \n"+" Vishwa Kumar Deepak \n"+"www.ankitanddeepali.com";
 			emailService.sendMail(o.getEmail(), eventFormModel.getEventName(),msg );
 		}
 		
